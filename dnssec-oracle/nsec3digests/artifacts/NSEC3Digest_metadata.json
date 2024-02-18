@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "salt",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "iterations",
+						"type": "uint256"
+					}
+				],
+				"name": "hash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Interface for contracts that implement NSEC3 digest algorithms.",
+			"kind": "dev",
+			"methods": {
+				"hash(bytes,bytes,uint256)": {
+					"details": "Performs an NSEC3 iterated hash.",
+					"params": {
+						"data": "The data to hash.",
+						"iterations": "The number of iterations to perform.",
+						"salt": "The salt value to use on each iteration."
+					},
+					"returns": {
+						"_0": "The result of the iterated hash operation."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dnssec-oracle/nsec3digests/NSEC3Digest.sol": "NSEC3Digest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dnssec-oracle/nsec3digests/NSEC3Digest.sol": {
+			"keccak256": "0xb3b61aee6bb472158b7ace6b5644dcb668271296b98a6dcde24dc72e3cdf4950",
+			"urls": [
+				"bzz-raw://e4294774b9f5ca42f886ee2de37ec2d3dd02f1048e824aa5983f4dedf2751e31",
+				"dweb:/ipfs/QmYSaec2cLmyH63Paf4gb3PS78XqKFDm6WxyvYjcNU7DqW"
+			]
+		}
+	},
+	"version": 1
+}

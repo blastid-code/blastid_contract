@@ -1,0 +1,48 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"author": "Tilman Drerup;",
+			"details": "NOTE: To disambiguate public keys when verifying signatures, activate          condition 'rs[1] > lowSmax' in validateSignature().",
+			"kind": "dev",
+			"methods": {},
+			"title": "EllipticCurve",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Implements elliptic curve math; Parametrized for SECP256R1.          Includes components of code by Andreas Olofsson, Alexander Vlasov          (https://github.com/BANKEX/CurveArithmetics), and Avi Asayag          (https://github.com/orbs-network/elliptic-curve-solidity)          Source: https://github.com/tdrerup/elliptic-curve-solidity",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dnssec-oracle/algorithms/EllipticCurve.sol": "EllipticCurve"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dnssec-oracle/algorithms/EllipticCurve.sol": {
+			"keccak256": "0xa0dc7fe8a8877e69c22e3e2e47dbc8370027c27dbd6a22cf5d36a4c3679608c8",
+			"urls": [
+				"bzz-raw://b3bab08668c12f737ccb8cdbbb650414d57668a21b45fc083a1016c08a8c8f39",
+				"dweb:/ipfs/QmT9ywCatVNiYh2Eb7YPfjQXe6g3UBoJ8rK8fmrQ6ME9Th"
+			]
+		}
+	},
+	"version": 1
+}

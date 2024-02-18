@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "key",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "sig",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implements the DNSSEC RSASHA1 algorithm.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dnssec-oracle/algorithms/RSASHA1Algorithm.sol": "RSASHA1Algorithm"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SHA1.sol": {
+			"keccak256": "0x2d88aad979169be42be820b0dcf9fecbed39635c6ed6cd4dd17788d747d840a8",
+			"urls": [
+				"bzz-raw://c1eb07828952d17074fba9b3d8a8291e494183979a878345b283a98b0dc4618a",
+				"dweb:/ipfs/QmZ5ShrjnK4sZgvhE64NFu4Wx1aUvQcbvkpojbQTZ1jS9B"
+			]
+		},
+		"contracts/dnssec-oracle/BytesUtils.sol": {
+			"keccak256": "0x83315df2e54c74451577c70da2c267c3459802b08b9aeec6516302eee70f796e",
+			"urls": [
+				"bzz-raw://6c1218a55db95f6ec9370cd7b1d726d5cda5daceaf2867a918faebf0be236bc4",
+				"dweb:/ipfs/QmRXqFRxDuPnEVPDN64wMuP1o57f1dC19Ub73ZKqSqV6Ag"
+			]
+		},
+		"contracts/dnssec-oracle/algorithms/Algorithm.sol": {
+			"keccak256": "0x51d6251568844e435f58952354abe8c8c8e978ab40ecb0bbb2f5bd767838b3a7",
+			"urls": [
+				"bzz-raw://b971a70e2a41451fe901a6a523feea1135fc4ef7d88848a294fb1a9760928130",
+				"dweb:/ipfs/QmausTGdb4UNMnWmsysDNdATa1Ayv8oCMoZ57YB5nqU9Vp"
+			]
+		},
+		"contracts/dnssec-oracle/algorithms/ModexpPrecompile.sol": {
+			"keccak256": "0xe3d689d14cf0294f433f4e14cdd8feab8d542e5b8342c911d5c7cb518170e2b1",
+			"urls": [
+				"bzz-raw://baedce29c530706f2d5f257297708056402ac1c50256f8434a29c476da076539",
+				"dweb:/ipfs/QmepYGqU5wGUpeDbxY3sGRTY9XD7HK1gqKmw78dubvwWuK"
+			]
+		},
+		"contracts/dnssec-oracle/algorithms/RSASHA1Algorithm.sol": {
+			"keccak256": "0xd8cb5e3f2668de3284424763c79d287b76199977be791e1c875fca67af962907",
+			"urls": [
+				"bzz-raw://b11e67b7f99a6a8cc0b8f349521bce5c91e4e66acbdd02d3e8acc39a6f740ee2",
+				"dweb:/ipfs/QmU6UZCxWFepabvkz2mwxu9tejZPFZEPfny6fk3gHkQK3i"
+			]
+		},
+		"contracts/dnssec-oracle/algorithms/RSAVerify.sol": {
+			"keccak256": "0xc630e4d296e2d7bd2b968f8a9a8df629fef5161e10ffae9973e045900741cfe4",
+			"urls": [
+				"bzz-raw://febeeed78cf8b58f2fc207b7aaf6d365a9bc2d26b93a3ed6bac186f95f532498",
+				"dweb:/ipfs/Qmd8EgPEd2SB33arFdm7aAiagFMBSoRis5xkACdp6vVMhE"
+			]
+		}
+	},
+	"version": 1
+}

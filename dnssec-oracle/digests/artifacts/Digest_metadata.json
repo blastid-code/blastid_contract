@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "hash",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "An interface for contracts implementing a DNSSEC digest.",
+			"kind": "dev",
+			"methods": {
+				"verify(bytes,bytes)": {
+					"details": "Verifies a cryptographic hash.",
+					"params": {
+						"data": "The data to hash.",
+						"hash": "The hash to compare to."
+					},
+					"returns": {
+						"_0": "True iff the hashed data matches the provided hash value."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dnssec-oracle/digests/Digest.sol": "Digest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dnssec-oracle/digests/Digest.sol": {
+			"keccak256": "0x259720cef78c019d38b908bc7dd524f087c58d8c40792cebcdd4e982c628bc9a",
+			"urls": [
+				"bzz-raw://dc797b74bc1f9b4495f02e69b1c8374cf1942dbfdf121ecbe1b4f28367aed545",
+				"dweb:/ipfs/QmS7b42XT556aS9HQppYbNTdosPfWCTym1qDh5CXsSAi1U"
+			]
+		}
+	},
+	"version": 1
+}

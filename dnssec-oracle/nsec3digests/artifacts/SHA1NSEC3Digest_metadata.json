@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "salt",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "iterations",
+						"type": "uint256"
+					}
+				],
+				"name": "hash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implements the DNSSEC iterated SHA1 digest used for NSEC3 records.",
+			"kind": "dev",
+			"methods": {
+				"hash(bytes,bytes,uint256)": {
+					"details": "Performs an NSEC3 iterated hash.",
+					"params": {
+						"data": "The data to hash.",
+						"iterations": "The number of iterations to perform.",
+						"salt": "The salt value to use on each iteration."
+					},
+					"returns": {
+						"_0": "The result of the iterated hash operation."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dnssec-oracle/nsec3digests/SHA1NSEC3Digest.sol": "SHA1NSEC3Digest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Buffer.sol": {
+			"keccak256": "0x18e42be1a3e4f7b4442d7ab0b524af5e09163503439954faf0ab3792cce91caa",
+			"urls": [
+				"bzz-raw://515c7c344086fe7cf7647eaaa477d3c9a6dbd3af6333136af0ce3b6955e79f84",
+				"dweb:/ipfs/QmUZpq2w29ZxFF8b96qhr2jwj8aK14R2rZT2tzNPk128bo"
+			]
+		},
+		"contracts/dnssec-oracle/SHA1.sol": {
+			"keccak256": "0x43d6fc9dfba44bcc5d696ac24d8e1b90355942b41c8324ea31dce1ebfce82263",
+			"urls": [
+				"bzz-raw://1960e30cb640d8fa40a05d1c699ada2bd70b7556d4d0a93ab7d234b9f7d5e41d",
+				"dweb:/ipfs/Qmf39ZcTRYZQ5xX1LJhFmY9LeEWE548oN4QBcrR6vwuutY"
+			]
+		},
+		"contracts/dnssec-oracle/nsec3digests/NSEC3Digest.sol": {
+			"keccak256": "0xb3b61aee6bb472158b7ace6b5644dcb668271296b98a6dcde24dc72e3cdf4950",
+			"urls": [
+				"bzz-raw://e4294774b9f5ca42f886ee2de37ec2d3dd02f1048e824aa5983f4dedf2751e31",
+				"dweb:/ipfs/QmYSaec2cLmyH63Paf4gb3PS78XqKFDm6WxyvYjcNU7DqW"
+			]
+		},
+		"contracts/dnssec-oracle/nsec3digests/SHA1NSEC3Digest.sol": {
+			"keccak256": "0xc40d44ddb2223a9420fb90e0ca9b50578b0b3dc299a84cf45f5d97f488d92d2c",
+			"urls": [
+				"bzz-raw://01a3d94df802f0a0757d4e697e1c53125c69250f77fa92c3e38e895027ef2ff1",
+				"dweb:/ipfs/QmVTUDvGt6s2iLKDKU8Y9reitVq5xtFUhJaTx3is2WrXsh"
+			]
+		}
+	},
+	"version": 1
+}

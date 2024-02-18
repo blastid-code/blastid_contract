@@ -1,0 +1,327 @@
+{
+	"id": "f844a8d7e0e5a2d3fd87119ca94056f1",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.24",
+	"solcLongVersion": "0.8.24+commit.e11b9ed9",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/dnssec-oracle/digests/Digest.sol": {
+				"content": "pragma solidity ^0.8.4;\n\n/**\n* @dev An interface for contracts implementing a DNSSEC digest.\n*/\ninterface Digest {\n    /**\n    * @dev Verifies a cryptographic hash.\n    * @param data The data to hash.\n    * @param hash The hash to compare to.\n    * @return True iff the hashed data matches the provided hash value.\n    */\n    function verify(bytes calldata data, bytes calldata hash) external virtual pure returns (bool);\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			"contracts/dnssec-oracle/digests/Digest.sol": {
+				"Digest": {
+					"abi": [
+						{
+							"inputs": [
+								{
+									"internalType": "bytes",
+									"name": "data",
+									"type": "bytes"
+								},
+								{
+									"internalType": "bytes",
+									"name": "hash",
+									"type": "bytes"
+								}
+							],
+							"name": "verify",
+							"outputs": [
+								{
+									"internalType": "bool",
+									"name": "",
+									"type": "bool"
+								}
+							],
+							"stateMutability": "pure",
+							"type": "function"
+						}
+					],
+					"devdoc": {
+						"details": "An interface for contracts implementing a DNSSEC digest.",
+						"kind": "dev",
+						"methods": {
+							"verify(bytes,bytes)": {
+								"details": "Verifies a cryptographic hash.",
+								"params": {
+									"data": "The data to hash.",
+									"hash": "The hash to compare to."
+								},
+								"returns": {
+									"_0": "True iff the hashed data matches the provided hash value."
+								}
+							}
+						},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"gasEstimates": null,
+						"legacyAssembly": null,
+						"methodIdentifiers": {
+							"verify(bytes,bytes)": "f7e83aee"
+						}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.24+commit.e11b9ed9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"internalType\":\"bytes\",\"name\":\"hash\",\"type\":\"bytes\"}],\"name\":\"verify\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"An interface for contracts implementing a DNSSEC digest.\",\"kind\":\"dev\",\"methods\":{\"verify(bytes,bytes)\":{\"details\":\"Verifies a cryptographic hash.\",\"params\":{\"data\":\"The data to hash.\",\"hash\":\"The hash to compare to.\"},\"returns\":{\"_0\":\"True iff the hashed data matches the provided hash value.\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/dnssec-oracle/digests/Digest.sol\":\"Digest\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/dnssec-oracle/digests/Digest.sol\":{\"keccak256\":\"0x259720cef78c019d38b908bc7dd524f087c58d8c40792cebcdd4e982c628bc9a\",\"urls\":[\"bzz-raw://dc797b74bc1f9b4495f02e69b1c8374cf1942dbfdf121ecbe1b4f28367aed545\",\"dweb:/ipfs/QmS7b42XT556aS9HQppYbNTdosPfWCTym1qDh5CXsSAi1U\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "1878",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> contracts/dnssec-oracle/digests/Digest.sol\n\n",
+				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "contracts/dnssec-oracle/digests/Digest.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			},
+			{
+				"component": "general",
+				"errorCode": "5815",
+				"formattedMessage": "Warning: Interface functions are implicitly \"virtual\"\n  --> contracts/dnssec-oracle/digests/Digest.sol:13:5:\n   |\n13 |     function verify(bytes calldata data, bytes calldata hash) external virtual pure returns (bool);\n   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\n",
+				"message": "Interface functions are implicitly \"virtual\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": 421,
+					"file": "contracts/dnssec-oracle/digests/Digest.sol",
+					"start": 326
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/dnssec-oracle/digests/Digest.sol": {
+				"ast": {
+					"absolutePath": "contracts/dnssec-oracle/digests/Digest.sol",
+					"exportedSymbols": {
+						"Digest": [
+							13
+						]
+					},
+					"id": 14,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".4"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:23:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "Digest",
+							"contractDependencies": [],
+							"contractKind": "interface",
+							"documentation": {
+								"id": 2,
+								"nodeType": "StructuredDocumentation",
+								"src": "25:70:0",
+								"text": " @dev An interface for contracts implementing a DNSSEC digest."
+							},
+							"fullyImplemented": false,
+							"id": 13,
+							"linearizedBaseContracts": [
+								13
+							],
+							"name": "Digest",
+							"nameLocation": "106:6:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"documentation": {
+										"id": 3,
+										"nodeType": "StructuredDocumentation",
+										"src": "119:202:0",
+										"text": " @dev Verifies a cryptographic hash.\n @param data The data to hash.\n @param hash The hash to compare to.\n @return True iff the hashed data matches the provided hash value."
+									},
+									"functionSelector": "f7e83aee",
+									"id": 12,
+									"implemented": false,
+									"kind": "function",
+									"modifiers": [],
+									"name": "verify",
+									"nameLocation": "335:6:0",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 8,
+										"nodeType": "ParameterList",
+										"parameters": [
+											{
+												"constant": false,
+												"id": 5,
+												"mutability": "mutable",
+												"name": "data",
+												"nameLocation": "357:4:0",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "342:19:0",
+												"stateVariable": false,
+												"storageLocation": "calldata",
+												"typeDescriptions": {
+													"typeIdentifier": "t_bytes_calldata_ptr",
+													"typeString": "bytes"
+												},
+												"typeName": {
+													"id": 4,
+													"name": "bytes",
+													"nodeType": "ElementaryTypeName",
+													"src": "342:5:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_bytes_storage_ptr",
+														"typeString": "bytes"
+													}
+												},
+												"visibility": "internal"
+											},
+											{
+												"constant": false,
+												"id": 7,
+												"mutability": "mutable",
+												"name": "hash",
+												"nameLocation": "378:4:0",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "363:19:0",
+												"stateVariable": false,
+												"storageLocation": "calldata",
+												"typeDescriptions": {
+													"typeIdentifier": "t_bytes_calldata_ptr",
+													"typeString": "bytes"
+												},
+												"typeName": {
+													"id": 6,
+													"name": "bytes",
+													"nodeType": "ElementaryTypeName",
+													"src": "363:5:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_bytes_storage_ptr",
+														"typeString": "bytes"
+													}
+												},
+												"visibility": "internal"
+											}
+										],
+										"src": "341:42:0"
+									},
+									"returnParameters": {
+										"id": 11,
+										"nodeType": "ParameterList",
+										"parameters": [
+											{
+												"constant": false,
+												"id": 10,
+												"mutability": "mutable",
+												"name": "",
+												"nameLocation": "-1:-1:-1",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "415:4:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_bool",
+													"typeString": "bool"
+												},
+												"typeName": {
+													"id": 9,
+													"name": "bool",
+													"nodeType": "ElementaryTypeName",
+													"src": "415:4:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_bool",
+														"typeString": "bool"
+													}
+												},
+												"visibility": "internal"
+											}
+										],
+										"src": "414:6:0"
+									},
+									"scope": 13,
+									"src": "326:95:0",
+									"stateMutability": "pure",
+									"virtual": true,
+									"visibility": "external"
+								}
+							],
+							"scope": 14,
+							"src": "96:327:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "0:424:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

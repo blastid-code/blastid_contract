@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implements a dummy DNSSEC digest that approves all hashes, for testing.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dnssec-oracle/digests/DummyDigest.sol": "DummyDigest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dnssec-oracle/digests/Digest.sol": {
+			"keccak256": "0x259720cef78c019d38b908bc7dd524f087c58d8c40792cebcdd4e982c628bc9a",
+			"urls": [
+				"bzz-raw://dc797b74bc1f9b4495f02e69b1c8374cf1942dbfdf121ecbe1b4f28367aed545",
+				"dweb:/ipfs/QmS7b42XT556aS9HQppYbNTdosPfWCTym1qDh5CXsSAi1U"
+			]
+		},
+		"contracts/dnssec-oracle/digests/DummyDigest.sol": {
+			"keccak256": "0x15e3a63572d9325d0e59346e5758181aed1865b934b3422f53cac930c7902c14",
+			"urls": [
+				"bzz-raw://c77a88ccf7b63196daea6ad28823328047b97293a10f3e4f93c1508ba74a2f68",
+				"dweb:/ipfs/QmX3hBH2wZPjqJejKWAHdezeYGD84zLZFKUNCcZ2hYFUqv"
+			]
+		}
+	},
+	"version": 1
+}

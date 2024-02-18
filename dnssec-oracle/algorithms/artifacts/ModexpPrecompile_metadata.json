@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dnssec-oracle/algorithms/ModexpPrecompile.sol": "ModexpPrecompile"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dnssec-oracle/algorithms/ModexpPrecompile.sol": {
+			"keccak256": "0xe3d689d14cf0294f433f4e14cdd8feab8d542e5b8342c911d5c7cb518170e2b1",
+			"urls": [
+				"bzz-raw://baedce29c530706f2d5f257297708056402ac1c50256f8434a29c476da076539",
+				"dweb:/ipfs/QmepYGqU5wGUpeDbxY3sGRTY9XD7HK1gqKmw78dubvwWuK"
+			]
+		}
+	},
+	"version": 1
+}

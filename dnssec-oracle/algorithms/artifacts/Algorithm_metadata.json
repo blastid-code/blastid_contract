@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "key",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "An interface for contracts implementing a DNSSEC (signing) algorithm.",
+			"kind": "dev",
+			"methods": {
+				"verify(bytes,bytes,bytes)": {
+					"details": "Verifies a signature.",
+					"params": {
+						"data": "The signed data to verify.",
+						"key": "The public key to verify with.",
+						"signature": "The signature to verify."
+					},
+					"returns": {
+						"_0": "True iff the signature is valid."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dnssec-oracle/algorithms/Algorithm.sol": "Algorithm"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dnssec-oracle/algorithms/Algorithm.sol": {
+			"keccak256": "0x51d6251568844e435f58952354abe8c8c8e978ab40ecb0bbb2f5bd767838b3a7",
+			"urls": [
+				"bzz-raw://b971a70e2a41451fe901a6a523feea1135fc4ef7d88848a294fb1a9760928130",
+				"dweb:/ipfs/QmausTGdb4UNMnWmsysDNdATa1Ayv8oCMoZ57YB5nqU9Vp"
+			]
+		}
+	},
+	"version": 1
+}

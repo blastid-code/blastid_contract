@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implements a dummy DNSSEC (signing) algorithm that approves all      signatures, for testing.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/dnssec-oracle/algorithms/DummyAlgorithm.sol": "DummyAlgorithm"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/dnssec-oracle/algorithms/Algorithm.sol": {
+			"keccak256": "0x51d6251568844e435f58952354abe8c8c8e978ab40ecb0bbb2f5bd767838b3a7",
+			"urls": [
+				"bzz-raw://b971a70e2a41451fe901a6a523feea1135fc4ef7d88848a294fb1a9760928130",
+				"dweb:/ipfs/QmausTGdb4UNMnWmsysDNdATa1Ayv8oCMoZ57YB5nqU9Vp"
+			]
+		},
+		"contracts/dnssec-oracle/algorithms/DummyAlgorithm.sol": {
+			"keccak256": "0x59bb926cf8544aa5624717a2fd5850508ac7dd2a09620b05799b4ee00b708b2d",
+			"urls": [
+				"bzz-raw://e29e539403eaa9d6a75ab9758271132d9c1b11f3c9371b82b03db8d418f80e59",
+				"dweb:/ipfs/QmQhxvSDjyCax5gph3KGkigEaXDExLf33sLs7uvZG6SLhW"
+			]
+		}
+	},
+	"version": 1
+}
